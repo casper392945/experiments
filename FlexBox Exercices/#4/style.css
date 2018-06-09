@@ -37,7 +37,7 @@ body {
 }
 
 .card--2 .card__img, .card--2 .card__img--hover {
-    background-image: url('https://images.pexels.com/photos/8758/food-dinner-lemon-rice.jpg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-image: url('https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
 }
 
 .card__like {
@@ -76,6 +76,8 @@ border-top-right-radius: 12px;
     position: absolute;
     padding: 16px;
   width: 100%;
+  opacity: 0;
+  top: 0;
 }
 
 .card__img--hover {
@@ -149,4 +151,8 @@ border-bottom-right-radius: 12px;
 .card:hover .card__info {
     background-color: transparent;
     position: relative;
+}
+
+.card:hover .card__info-hover {
+    opacity: 1;
 }
